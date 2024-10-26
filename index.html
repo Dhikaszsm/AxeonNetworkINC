@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axeon Network</title>
+    <link rel="stylesheet" href="styles.css">
+    <style> 
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 10px 20px; /* Reduced padding */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            flex-grow: 1;
+        }
+        nav a {
+            color: #ffffff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s, transform 0.3s;
+        }
+        nav a:hover {
+            color: #f39c12;
+            transform: scale(1.1);
+        }
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        .main-content {
+            flex: 3;
+            padding: 20px;
+        }
+        .main-content h2 {
+            color: #35424a;
+        }
+        .sidebar {
+            flex: 1;
+            padding: 20px;
+            background: #f8f8f8;
+            border-left: 1px solid #ddd;
+            border-radius: 5px;
+            margin-left: 20px;
+        }
+        .sidebar h3 {
+            color: #35424a;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #35424a;
+            color: #ffffff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 20px;
+        }
+        .button {
+            background-color: #f39c12;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .button:hover {
+            background-color: #e67e22;
+            transform: scale(1.05);
+        }
+        .hot-topic-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .hot-topic-list li {
+            margin: 10px 0;
+        }
+        .hot-topic-list a {
+            text-decoration: none;
+            color: #35424a;
+            transition: color 0.3s;
+        }
+        .hot-topic-list a:hover {
+            color: #f39c12;
+        }
+        @media (max-width: 800px) {
+            .container {
+                flex-direction: column;
+            }
+            .sidebar {
+                margin-left: 0;
+                margin-top: 20px;
+            }
+        }
+        /* Logo styles */
+        .logo {
+            width: 50px; /* Adjust the width of the logo */
+            height: auto; /* Maintain aspect ratio */
+            margin-right: 10px; /* Space between logo and title */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div style="display: flex; align-items: center;">
+        <img src="gambar/logo.png" alt="Logo Axeon Network" class="logo"> <!-- Ganti dengan path logo Anda -->
+        <h1 style="font-size: 24px;">Axeon Network INC</h1>
+    </div>
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="info.html">Info Game & Teknologi</a>
+        <a href="portfolio.html">Portofolio</a>
+        <a href="kontak.html">Contact Us</a>
+    </nav>
+    <div style="margin-right: 20px;">
+        <a href="sign-up.html" class="button">Daftar</a>
+        <a href="login.html" class="button">Login</a>
+    </div>
+</header>
+
+<div class="container">
+    <div class="main-content">
+        <h2>Selamat Datang</h2>
+        <p>Selamat datang di Axeon Network INC</p>
+        <h3></h3>
+        <p>Diwebsite ini kami menyajikan informasi seputar teknologi dan games,Selamat berjelajah</p>
+        <h3>Hubungi Kami</h3>
+        <p>Jika Anda memiliki pertanyaan atau ingin bekerja sama,jangan ragu untuk menghubungi kami melalui halaman kontak.</p>
+    </div>
+
+    <div class="sidebar">
+        <h3>Hot's Topic</h3>
+        <ul class="hot-topic-list">
+            <li><a href="#">Cara Memilih Kopi yang Tepat</a></li>
+            <li><a href="#">Resep Kue Kering Spesial</a></li>
+            <li><a href="#">Tips Membuka Kafe Sukses</a></li>
+            <li><a href="#">Peralatan Kafe yang Wajib Dimiliki</a></li>
+            <li><a href="#">Tren Minuman Kekinian</a></li>
+        </ul>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Axeon Network INC. Semua hak dilindungi.</p>
+</footer>
+
+</body>
+</html>
